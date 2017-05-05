@@ -21,6 +21,8 @@
     <AppxPackageSigningEnabled>true</AppxPackageSigningEnabled>
     <PackageCertificateKeyFile>DigitalSignageUAP_TemporaryKey.pfx</PackageCertificateKeyFile>
     <NuGetPackageImportStamp>4cc9f130</NuGetPackageImportStamp>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Never</AppxBundle>
   </PropertyGroup>
   <ItemGroup>
     <SDKReference Include="WindowsIoT, Version=10.0.15063.0">
@@ -139,9 +141,17 @@
     <Content Include="Assets\config.xml" />
     <Content Include="Assets\DigitalSignage.png" />
     <Content Include="Assets\Edge.png" />
+    <Content Include="Assets\firesale1.png" />
+    <Content Include="Assets\firesale2.png" />
+    <Content Include="Assets\firesale3.png" />
+    <Content Include="Assets\firesale4.png" />
     <Content Include="Assets\hero_square.jpg" />
     <Content Include="Assets\IoTVision.wmv" />
     <Content Include="Assets\IE.png" />
+    <Content Include="Assets\sale1.png" />
+    <Content Include="Assets\sale2.png" />
+    <Content Include="Assets\sale3.png" />
+    <Content Include="Assets\sale4.png" />
     <Content Include="Assets\tile01.png" />
     <Content Include="Assets\vision.png" />
     <Content Include="Assets\rpi2.png" />

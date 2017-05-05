@@ -93,7 +93,7 @@ namespace DigitalSignageUAP
     public sealed partial class MainPage : Page
     {
         static FlyoutSettings flyout = new FlyoutSettings();
-        static bool MainPageFirstTimeLoad = true;
+        static bool MainPageFirstTimeLoad = false;
         string vszVisionVideoPath = "http://iot-digisign01/ds/IoTVision.wmv";
         AppServiceConnection _appServiceConnection;
 
